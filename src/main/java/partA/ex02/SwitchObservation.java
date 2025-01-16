@@ -10,7 +10,7 @@ public class SwitchObservation {
         switch (option) {
             case 'A':
                 aCount++;
-               response += ("Count of A  " + aCount);
+                response += ("Count of A  " + aCount);
                 break;
             case 'B':
                 bCount++;

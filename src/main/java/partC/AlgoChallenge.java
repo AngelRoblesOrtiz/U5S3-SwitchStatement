@@ -15,8 +15,14 @@ public class AlgoChallenge {
     */
 
     public static Boolean dogTrouble(boolean bulldogGrowl, boolean labGrowl) {
+        boolean response;
+        if (bulldogGrowl && labGrowl || !bulldogGrowl && !labGrowl) {
+            response = true;
+        } else {
+            response = false;
+        }
 
-        return null;
+        return response;
     }
 
     /* Problem 13
@@ -32,7 +38,13 @@ public class AlgoChallenge {
      */
 
     public static Boolean puppyCry(boolean crying, int hour) {
+        boolean response;
+        if (crying && ((hour < 7) || (hour > 20))) {
+            response = true;
+        } else {
+            response = false;
+        }
 
-        return null;
+        return response;
     }
 }
